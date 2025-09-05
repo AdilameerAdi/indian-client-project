@@ -5,6 +5,9 @@ import Solution from "./frontend/solution"
 import Features from "./frontend/features"
 import HowItWorks from "./frontend/Howitwork"
 import Highlights from "./frontend/Highlights"
+import Pricing from "./frontend/pricing"
+import Roadmap from "./frontend/roadmap"
+import FAQs from "./frontend/faqs"
 export default function App(){
 
   return<>
@@ -15,5 +18,8 @@ export default function App(){
 <Features></Features>
 <HowItWorks/>
 <Highlights></Highlights>
+<Pricing></Pricing>
+<Roadmap></Roadmap>
+<FAQs></FAQs>
   </>
 }
